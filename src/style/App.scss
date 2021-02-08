@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+}
+
+.search {
+  margin: 10px auto;
+  width: max-content;
+  & input {
+    &[type="text"] {
+      padding: 5px;
+      font-size: 16px;
+      font-weight: 700;
+      width: 450px;
+    }
+  }
+  & button {
+    width : 100px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+}
+
+.category-list {
+  margin-top: 20px;
+  border: 1px solid #CCC;
+  padding: 20px;
+  
+  & .category-item {
+    border: 1px solid #f2f2f2;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+  & span {
+    font-size: 14px;
+    display: inline-block;
+    width: 150px;
+  } 
+
+  & h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.part-list {
+  border: 1px solid #CCC;
+  padding: 20px;
+  
+  & .part-item {
+    border: 1px solid #f2f2f2;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+  & span {
+    display: inline-block;
+    width: 150px;
+  }
+
+  & h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.popular-video-list {
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 20px;
+  
+  & h2 {
+    text-align: center;
+  }
+
+  & button {
+    margin: 30px auto;
+    display: block;
+    padding: 5px;
+    font-weight: 700;
+  }
+  
+  & .popular-video-item {
+    width: 500px;
+    white-space: nowrap;
+    overflow-x: hidden;
+  
+    & img {
+      display: block;
+      margin: 0 auto;
+    }
+  
+    & span {
+      margin-top: 10px;
+      display: block;
+      text-align: center;
+    }
+  }
+}
